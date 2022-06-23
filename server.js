@@ -15,3 +15,10 @@ MongoClient.connect(dbConnectionString)
     db = client.db(dbName)
     collection = db.collection('movies')
 })
+
+//DB_STRING
+//PORT=8000
+
+app.listen(process.env.PORT || PORT,  () => {
+    console.log (`Sever is running on port`)
+})
