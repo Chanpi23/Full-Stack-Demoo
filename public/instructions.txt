@@ -23,7 +23,7 @@
 
 //10. Create heroku repo
 
-// remember to remove the .env file from .gitignore because the server will crash after put it back index
+// remember to remove the .env file from .gitignore because the server will crash after put it back  after you are done pushing to heroku
 
 // heroku login
 // heroku create simple-rap-api
