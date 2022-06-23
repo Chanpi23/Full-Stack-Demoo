@@ -25,6 +25,14 @@ app.use(express.json())// parsing our data with json
 app.use(cors())// don't need to declare the library anymore
 
 
+ app.length('/', async (request,response ) =>{
+    try {
+response.render ('index.ejs')
+    } catch (error){
+response.status(500).send({message: error.message})
+    }
+ })
+
 //PORT=8000
 
 app.listen(process.env.PORT || PORT,  () => {
