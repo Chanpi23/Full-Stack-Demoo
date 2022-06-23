@@ -5,6 +5,8 @@
 
 //3. Declare variables
 
+//7. Create gitignore file and push to github
+
 //4. Connect to MongoDB - add connection string to .env file
 
 //5. Add .env file to gitignore
@@ -15,15 +17,11 @@
 
 //6. Set middleware
 
-//7. Create gitignore file
-
 //8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
 
 //9. From root, init local git repo and commit
 
 //10. Create heroku repo
-
-// remember to remove the .env file from .gitignore because the server will crash after put it back  after you are done pushing to heroku
 
 // heroku login
 // heroku create simple-rap-api
