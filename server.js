@@ -6,5 +6,12 @@ require('dotenv').config()
 
 let db,
 dbConnectionString =  process.env.DB_STRING,
-dbName= ' ',
+dbName= 'sample_mflix',
 collection 
+
+MongoClient.connect(dbConnectionString)
+.then( client =>{
+    console.log(`Connected to the Other World`)
+    db = client.db(dbName)
+    collection = db.collection('movies')
+})
